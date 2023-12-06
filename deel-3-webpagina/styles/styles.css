@@ -1,1 +1,19 @@
 /*Schrijf hier jouw css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.dev {
+    border-style: solid;
+    border-color: #1A293A;
+}
+
+body {
+    display: flex;
+    background-color: #F2F3D9;
+    font-family: roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
