@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-basis: auto;
-    height: 550px;
+    height: calc(100% - 400px);
 /*Ik krijg main niet zover dat alle hoogte wordt gepakt...*/
 }
 
@@ -24,7 +24,6 @@ main {
         /*flex-basis: 100%;*/
         flex-grow: 1;
         flex-shrink: 1;
-
     }
 
     nav {
