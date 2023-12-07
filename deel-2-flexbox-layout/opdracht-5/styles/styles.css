@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+.dev {
+    border-color: rgb(148, 0, 0);
+    border-style: solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    height: calc(100% - 400px);
+/*Ik krijg main niet zover dat alle hoogte wordt gepakt...*/
+}
+
+    article {
+        /*flex-basis: 100%;*/
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    nav {
+        flex-basis: 150px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        order: -1;
+    }
+
+header {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+    aside {
+        flex-basis: 150px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+footer {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

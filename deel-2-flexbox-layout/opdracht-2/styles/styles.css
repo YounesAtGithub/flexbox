@@ -1,1 +1,69 @@
 /*Schrijf hier jouw CSS*/
+
+.dev {
+    border-color: red;
+    border-style: dotted;
+}
+
+/*-----------  BODY  -----------*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+        /*-----------  NAV  -----------*/
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-basis: 20%;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+
+
+        /*-----------  DIV  -----------*/
+        div {
+            display: flex;
+            flex-direction: column;
+            flex-basis: auto;
+            flex-grow: 1;
+        }
+
+
+
+            /*-----------  HEADER  -----------*/
+            header {
+                flex-basis: 150px;
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            }
+
+
+
+            /*-----------  MAIN  -----------*/
+            main {
+                display: flex;
+                flex-basis: auto;
+                flex-grow: 1;
+
+            }
+
+
+
+                /*-----------  ARTICLE  -----------*/
+                article {
+                    flex-basis: 100vw;
+                }
+
+
+
+            /*-----------  FOOTER  -----------*/
+            footer {
+                flex-basis: 150px;
+                flex-grow: 0;
+                flex-shrink: 0;
+
+            }

@@ -1,1 +1,67 @@
 /*Schrijf hier jouw css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.dev {
+    border-style: solid;
+    border-color: #1A293A;
+}
+
+body {
+    display: flex;
+    background-color: #F2F3D9;
+    font-family: roboto, sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 350px;
+    line-height: 27px;
+    font-size: 18px;
+    background-color: #C16E70;
+    border-radius: 5px;
+    align-self: auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #151E3F;
+    color: white;
+    width: 100vw;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.menu{
+    align-self: flex-end;
+}
+
+
